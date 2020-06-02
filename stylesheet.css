@@ -1,1 +1,6 @@
-stylesheet
+header {
+  background-color: blue;
+}
+footer {
+  background-color: #90ee90;
+}
