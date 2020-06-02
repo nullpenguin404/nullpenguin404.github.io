@@ -10,7 +10,7 @@ footer {
   font-size: 38px;
 }
 .h-list ul {
-  list-style-type: none;
+  type: none;
   float: right;
 }
 .h-list li {
