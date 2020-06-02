@@ -1,6 +1,6 @@
 header {
   background-color: #adff2f;
-  float: left;
+  
 }
 footer {
   background-color: #90ee90;
@@ -10,6 +10,6 @@ footer {
 .h-logo {
   font-size: 38px;
 }
-.h-list ul {
+.h-list li {
   float: left;
 }
