@@ -12,3 +12,6 @@ footer {
 .h-list {
   float: right;
 }
+.h-list li {
+  float: left;
+}
