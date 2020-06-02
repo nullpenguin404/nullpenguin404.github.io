@@ -11,8 +11,7 @@ footer {
 }
 .h-list ul {
   type: none;
-  float: right;
 }
 .h-list li {
-  float: left;
+  float: right;
 }
