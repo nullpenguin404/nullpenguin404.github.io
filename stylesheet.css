@@ -1,6 +1,5 @@
 header {
   background-color: #adff2f;
-  
 }
 footer {
   background-color: #90ee90;
@@ -12,7 +11,7 @@ footer {
 }
 .h-list ul {
   list-style-type: none;
-  float: left;
+  float: right;
 }
 .h-list li {
   float: left;
