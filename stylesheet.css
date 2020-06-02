@@ -10,6 +10,10 @@ footer {
 .h-logo {
   font-size: 38px;
 }
+.h-list ul {
+  list-style-type: none;
+  float: left;
+}
 .h-list li {
   float: left;
 }
