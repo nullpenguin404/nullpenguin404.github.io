@@ -1,5 +1,6 @@
 header {
   background-color: #adff2f;
+  float: left;
 }
 footer {
   background-color: #90ee90;
@@ -8,11 +9,13 @@ footer {
 
 .h-logo {
   font-size: 38px;
+  float: left;
 }
 .h-list {
   float: right;
 }
 .h-list li {
   float: left;
-  margin-right: 10px;
+  margin-left: 10px;
+  list-style-type: none;
 }
