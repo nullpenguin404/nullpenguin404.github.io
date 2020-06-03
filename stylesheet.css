@@ -58,8 +58,14 @@ footer {
   font-size: 30px;
   font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
   margin: 5px;
+  float: left;
+}
+.f-list {
+  float: right;
+  margin-right: 100px;
 }
 .f-list li {
-  float: left;
+  float: none;
   list-style-type: none;
+  margin-bottom: 10px;
 }
