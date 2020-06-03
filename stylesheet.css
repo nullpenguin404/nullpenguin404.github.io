@@ -12,6 +12,8 @@ header {
 footer {
   background-color: #90ee90;
   font-size: 19px;
+  width: 100%;
+  float: left;
 }
 
 
@@ -20,7 +22,7 @@ footer {
   float: left;
   padding: 5px;
   margin: 5px 3px;
-  font-family: "Segoe Sclipt", "Marker Felt", cursive;
+  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
 }
 .h-list {
   float: right;
@@ -51,4 +53,13 @@ footer {
 }
 .contents {
   padding-left: 8px;
+}
+.f-logo {
+  font-size: 30px;
+  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  margin: 5px;
+}
+.f-list li {
+  float: left;
+  list-style-type: none;
 }
