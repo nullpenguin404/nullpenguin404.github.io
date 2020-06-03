@@ -19,7 +19,7 @@ footer {
   font-size: 38px;
   float: left;
   padding: 5px;
-  margin-bottom: 5px;
+  margin: 5px 3px;
   font-family: "Segoe Sclipt", "Marker Felt", cursive;
 }
 .h-list {
@@ -47,7 +47,8 @@ footer {
 .sb-title {
   font-size: 30px;
   border-bottom: dashed 3px #aaaaaa;
+  margin: 2px 10px;
 }
 .contents {
-  
+  padding-left: 8px;
 }
