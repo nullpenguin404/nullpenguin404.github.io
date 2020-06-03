@@ -1,6 +1,7 @@
 body {
    margin: 0px;
    -webkit-text-size-adjust: 100%;
+   font-family: "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 header {
   background-color: #adff2f;
@@ -10,6 +11,7 @@ header {
 }
 footer {
   background-color: #90ee90;
+  font-size: 19px;
 }
 
 
@@ -18,9 +20,11 @@ footer {
   float: left;
   padding: 5px;
   margin-bottom: 5px;
+  font-family: "Segoe Sclipt", "Marker Felt", cursive;
 }
 .h-list {
   float: right;
+  font-size: 18px;
 }
 .h-list li {
   float: left;
@@ -37,5 +41,13 @@ footer {
   margin-right: 10px;
 }
 .main {
- font-family: sans-serif, `メイリオ`, `Hiragino Kaku Gothic Pro`;
+  font-size: 20px;
+  margin: auto;
+}
+.sb-title {
+  font-size: 30px;
+  border-bottom: dashed 3px #aaaaaa;
+}
+.contents {
+  
 }
