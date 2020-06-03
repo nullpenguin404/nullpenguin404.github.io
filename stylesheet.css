@@ -9,6 +9,10 @@ header {
   margin: auto;
   width: 100%;
 }
+header a {
+  color: #000000;
+  text-decoration: none;
+}
 footer {
   background-color: #90ee90;
   font-size: 19px;
