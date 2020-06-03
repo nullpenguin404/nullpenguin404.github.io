@@ -1,7 +1,12 @@
+body {
+   margin: 0px;
+   -webkit-text-size-adjust: 100%;
+}
 header {
   background-color: #adff2f;
   float: left;
-  width: auto;
+  text-align: center;
+  width: 100%;
 }
 footer {
   background-color: #90ee90;
@@ -19,4 +24,7 @@ footer {
   float: left;
   margin-left: 10px;
   list-style-type: none;
+}
+.main {
+
 }
