@@ -5,7 +5,7 @@ body {
 header {
   background-color: #adff2f;
   float: left;
-  text-align: center;
+  margin: auto;
   width: 100%;
 }
 footer {
@@ -16,15 +16,26 @@ footer {
 .h-logo {
   font-size: 38px;
   float: left;
+  padding: 5px;
+  margin-bottom: 5px;
 }
 .h-list {
   float: right;
 }
 .h-list li {
   float: left;
-  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
   list-style-type: none;
+  border-right: solid 2px #aaaaaa;
+}
+.h-list li:first-child {
+  border-left: solid 2px #aaaaaa;
+}
+.h-list li:last-child {
+  margin-right: 10px;
 }
 .main {
-
+ font-family: sans-serif, `メイリオ`, `Hiragino Kaku Gothic Pro`;
 }
