@@ -64,9 +64,6 @@ footer {
   padding: 5px;
   float: left;
 }
-.f-spase {
-  width: 100%;
-}
 .f-list, .f-list-l {
   float: right;
   margin-right: 35px;
@@ -83,5 +80,4 @@ footer {
 }
 .copylite {
   float: right;
-
 }
