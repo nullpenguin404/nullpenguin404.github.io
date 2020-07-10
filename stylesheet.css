@@ -52,6 +52,7 @@ footer {
 }
 .page-title {
   font-size: 35px;
+  font-family: "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 .sb-title {
   font-size: 30px;
@@ -75,6 +76,8 @@ footer {
 }
 .f-list-l {
   border: hidden;
+  margin-right: 0px;
+  padding-right: 0px;
 }
 .f-list li, .f-list-l li {
   float: none;
