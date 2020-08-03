@@ -57,6 +57,7 @@ footer {
 }
 .page-title h1 {
   margin: 0px;
+  text-align: center;
 }
 .sb-title {
   font-size: 30px;
@@ -68,7 +69,7 @@ footer {
 }
 .f-logo {
   font-size: 30px;
-  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  font-family: 'Kosugi Maru', "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
   padding: 5px;
   float: left;
 }
