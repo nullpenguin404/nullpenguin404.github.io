@@ -7,7 +7,6 @@ body {
 header {
   background-color: #adff2f;
   float: left;
-  margin: auto;
   width: 100%;
 }
 header a {
@@ -49,16 +48,21 @@ footer {
 }
 .main {
   font-size: 20px;
-  margin: auto;
+  margin-top: 0px;
+  padding-top: 58px;
 }
 .page-title {
   font-size: 35px;
   font-family: "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
-  background-image: url(img\ヘッダー画像.jpg);
 }
 .page-title h1 {
   margin: 0px;
   text-align: center;
+  background-image: url("img/ヘッダー画像.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 50px 0px;
 }
 .sb-title {
   font-size: 30px;
