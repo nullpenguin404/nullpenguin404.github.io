@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 body {
    margin: 0px;
    -webkit-text-size-adjust: 100%;
@@ -36,7 +35,7 @@ footer {
   float: left;
   padding: 5px;
   margin: 5px 3px;
-  font-family: 'Kosugi Maru', "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
 }
 .h-list {
   float: right;
@@ -87,7 +86,7 @@ footer {
 }
 .f-logo {
   font-size: 30px;
-  font-family: 'Kosugi Maru', "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
   padding: 5px;
   float: left;
 }
