@@ -84,6 +84,9 @@ footer {
 .contents {
   padding-left: 8px;
 }
+.face {
+  margin-top: 20px;
+}
 .m-footer {
     border-top: solid 1px #aaaaaa;
 }
