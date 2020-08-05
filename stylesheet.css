@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 body {
    margin: 0px;
    -webkit-text-size-adjust: 100%;
-   font-family: "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+   font-family: 'Kosugi Maru',　'Comfortaa', "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 header {
   background-color: #adff2f;
@@ -35,7 +38,7 @@ footer {
   float: left;
   padding: 5px;
   margin: 5px 3px;
-  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  font-family: 'Patrick Hand', 'Comfortaa', 'Kosugi Maru',　"BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
 }
 .h-list {
   float: right;
@@ -62,7 +65,7 @@ footer {
 }
 .page-title {
   font-size: 35px;
-  font-family: "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-family: 'Patrick Hand', 'Comfortaa', 'Kosugi Maru',　"Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 .page-title h1 {
   margin: 0px;
@@ -86,7 +89,7 @@ footer {
 }
 .f-logo {
   font-size: 30px;
-  font-family: "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  font-family: 'Patrick Hand', 'Comfortaa', 'Kosugi Maru',　"BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
   padding: 5px;
   float: left;
 }
