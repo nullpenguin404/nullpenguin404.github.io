@@ -54,6 +54,7 @@ footer {
 .page-title {
   font-size: 35px;
   font-family: "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-image: url(img\ヘッダー画像.jpg);
 }
 .page-title h1 {
   margin: 0px;
