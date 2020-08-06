@@ -43,6 +43,7 @@ footer {
 .h-list {
   float: right;
   font-size: 18px;
+  vertical-align: middle;
 }
 .h-list li {
   float: left;
@@ -84,11 +85,17 @@ footer {
 .contents {
   padding-left: 8px;
 }
+.prof {
+  display: flex;
+}
+.prof li {
+  list-style-type: circle;
+}
 .face {
   margin-top: 20px;
 }
 .m-footer {
-    border-top: solid 1px #aaaaaa;
+  border-top: solid 1px #aaaaaa;
 }
 .f-logo {
   font-size: 30px;
@@ -101,6 +108,7 @@ footer {
   margin-right: 35px;
   padding-right: 65px;
   border-right: solid 2px #aaaaaa;
+  vertical-align: middle;
 }
 .f-list-l {
   border: hidden;
