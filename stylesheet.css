@@ -97,6 +97,13 @@ footer {
 }
 .prof li {
   list-style-type: circle;
+  margin-top: 1em;
+}
+.prof p {
+  margin-top: 0.5em;
+}
+.prof .hitokoto {
+  margin-top: 2em;
 }
 .face {
   margin-top: 20px;
