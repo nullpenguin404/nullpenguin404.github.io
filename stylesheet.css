@@ -25,6 +25,9 @@ article {
   box-shadow: 10px 10px 10px #aaaaaa;
   border-radius: 5px;
 }
+ul p {
+  margin: 0px;
+}
 footer {
   background-color: #90ee90;
   font-size: 19px;
@@ -39,6 +42,7 @@ footer {
   padding: 5px;
   margin: 5px 3px;
   font-family: 'Patrick Hand', 'Comfortaa', 'Kosugi Maru', "BRGペン字恋文", "HGep042", "Segoe Sclipt", "Marker Felt", cursive;
+  margin-left: 20px;
 }
 .h-list {
   float: right;
@@ -84,6 +88,9 @@ footer {
 }
 .contents {
   padding-left: 8px;
+}
+.chara-name {
+  margin: 0px;
 }
 .prof {
   display: flex;
