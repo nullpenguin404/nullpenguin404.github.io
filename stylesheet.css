@@ -34,6 +34,10 @@ footer {
   width: 100%;
   float: left;
 }
+footer a {
+  text-decoration: none;
+  color: #000000;
+}
 
 
 .h-logo {
@@ -89,6 +93,9 @@ footer {
 .contents {
   padding-left: 8px;
 }
+.hito {
+  text-decoration: line-through;
+}
 .chara-name {
   margin: 0px;
 }
@@ -104,6 +111,9 @@ footer {
 }
 .prof .hitokoto {
   margin-top: 40px;
+}
+.hitokoto {
+  font-style: italic;
 }
 .face {
   margin-top: 20px;
