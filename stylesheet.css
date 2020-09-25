@@ -15,6 +15,7 @@ header {
   position: fixed;
   overflow: hidden;
   border-bottom: solid 1px #aaaaaa;
+  
 }
 header a {
   color: #000000;
