@@ -7,26 +7,26 @@ body {
    font-family: 'Kosugi Maru', 'Comfortaa', "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
 }
 header {
-  background-color: #adff2f;
+  background-color: #dddddd;
   float: left;
   width: 100%;
   height: 73px;
   top: 0px;
   position: fixed;
   overflow: hidden;
-  border-bottom: solid 1px #aaaaaa;
+  border-bottom: solid 1px #666666;
 }
 header a {
-  color: #000000;
+  color: #333333;
   text-decoration: none;
 }
 article , aside{
-  border: solid 1px #aaaaaa;
+  border: solid 1px #666666;
   margin: 20px;
   padding: 10px;
-  background-color: #d3d3f5;
-  -webkit-box-shadow: 10px 10px 10px #aaaaaa;
-  box-shadow: 10px 10px 10px #aaaaaa;
+  background-color: #eeeeee;
+  -webkit-box-shadow: 10px 10px 10px #333333;
+  box-shadow: 10px 10px 10px #333333;
   border-radius: 5px;
 }
 ul p {
@@ -40,10 +40,10 @@ aside li {
 }
 aside a {
   text-decoration: none;
-  color: #000000;
+  color: #333333;
 }
 footer {
-  background-color: #90ee90;
+  background-color: #dddddd;
   font-size: 19px;
   width: 100%;
   float: left;
