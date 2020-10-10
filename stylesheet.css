@@ -20,6 +20,10 @@ header a {
   color: #333333;
   text-decoration: none;
 }
+main {
+  font-size: 20px;
+  margin-top: 74px;
+}
 article , aside{
   border: solid 1px #666666;
   margin: 20px;
@@ -81,10 +85,6 @@ footer a {
 .h-list li:last-child {
   margin-right: 20px;
 }
-.main {
-  font-size: 20px;
-  margin-top: 74px;
-}
 .page-title {
   font-size: 35px;
   font-family: 'Patrick Hand', 'Comfortaa', 'Kosugi Maru', "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
@@ -92,7 +92,7 @@ footer a {
 .page-title h1 {
   margin: 0px;
   text-align: center;
-  background-image: url("img/ヘッダー画像.png");
+  background-image: url("images/ヘッダー画像.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
