@@ -3,12 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
 body {
    margin: 0px;
+   padding: auto;
    -webkit-text-size-adjust: 100%;
    font-family: 'Kosugi Maru', 'Comfortaa', "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
+   max-width: 1500px;
+
 }
 header {
   background-color: #dddddd;
-  float: left;
   width: 100%;
   height: 73px;
   top: 0px;
@@ -23,6 +25,7 @@ header a {
 main {
   font-size: 20px;
   margin-top: 74px;
+  
 }
 article , aside{
   border: solid 1px #666666;
