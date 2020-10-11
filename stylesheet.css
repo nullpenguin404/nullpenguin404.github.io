@@ -26,7 +26,6 @@ main {
   margin: 74px auto 0px;
 }
 article , aside{
-  display: block;
   border: solid 1px #666666;
   margin: 20px;
   padding: 10px;
@@ -37,6 +36,7 @@ article , aside{
 }
 article {
   max-width: 1000px;
+  vertical-align: middle;
 }
 aside {
   max-width: 500px;
