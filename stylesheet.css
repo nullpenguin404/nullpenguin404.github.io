@@ -6,8 +6,6 @@ body {
    padding: auto;
    -webkit-text-size-adjust: 100%;
    font-family: 'Kosugi Maru', 'Comfortaa', "Myrica M", "メイリオ", "Hiragino Kaku Gothic Pro", sans-serif;
-   max-width: 1500px;
-
 }
 header {
   background-color: #dddddd;
@@ -24,10 +22,11 @@ header a {
 }
 main {
   font-size: 20px;
-  margin-top: 74px;
-  
+  max-width: 1500px;
+  margin: 74px auto 0px;
 }
 article , aside{
+  display: block;
   border: solid 1px #666666;
   margin: 20px;
   padding: 10px;
@@ -35,6 +34,13 @@ article , aside{
   -webkit-box-shadow: 10px 10px 10px #333333;
   box-shadow: 10px 10px 10px #333333;
   border-radius: 5px;
+}
+article {
+  max-width: 1000px;
+}
+aside {
+  max-width: 500px;
+  float: right;
 }
 ul p {
   margin: 0px;
@@ -61,6 +67,10 @@ footer a {
 }
 
 
+.h-content {
+  max-width: 1500px;
+  margin: 0px auto;
+}
 .h-logo {
   font-size: 38px;
   float: left;
