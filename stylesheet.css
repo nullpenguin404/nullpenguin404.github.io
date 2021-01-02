@@ -220,3 +220,8 @@ footer a {
 .copylite small {
   float: right;
 }
+
+.copycontent {
+  margin: 0 auto;
+  width: 1000px;
+}
