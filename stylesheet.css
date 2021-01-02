@@ -25,27 +25,32 @@ header a {
 
 main {
   font-size: 20px;
-  max-width: 1500px;
+  max-width: 100%;
   min-height: 100vh;
 }
 
 article, aside {
   border: solid 1px #666666;
-  margin: 20px;
+  margin: 0px;
   padding: 10px;
   background-color: #eeeeee;
   -webkit-box-shadow: 10px 10px 10px #333333;
   box-shadow: 10px 10px 10px #333333;
   border-radius: 5px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
 }
 
 article {
-  width: 69%;
+  width: 70%;
   float: left;
 }
 
 aside {
-  width: 20%;
+  width: 25%;
   float: right;
 }
 
@@ -79,7 +84,7 @@ footer a {
 }
 
 .h-content {
-  max-width: 1500px;
+  width: 1000px;
   margin: 0px auto;
 }
 
@@ -137,10 +142,10 @@ footer a {
 }
 
 .articles {
-  margin-right: 0px;
-  width: 100%;
-  float: left;
-  vertical-align: middle;
+  right: auto;
+  left: auto;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .contents {
@@ -170,6 +175,14 @@ footer a {
 
 .m-footer {
   border-top: solid 1px #666666;
+}
+
+.f-contents {
+  left: auto;
+  right: auto;
+  margin: 0 auto;
+  width: 1000px;
+  clear: both;
 }
 
 .f-logo {
