@@ -200,6 +200,10 @@ footer a {
   margin-bottom: 10px;
 }
 
+.copylite {
+  float: right;
+}
+
 .copylite small {
   float: right;
 }
