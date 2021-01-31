@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
-
 body {
     font-family: 'Kosugi Maru', sans-serif;
     top: 0;
@@ -50,7 +49,7 @@ header {
     border-right: 1px solid gray;
 }
 
-#h-nav a {
+nav a {
     text-decoration: none;
     color: black;
 }
