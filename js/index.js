@@ -1,17 +1,6 @@
 'use strict';
 
-const local = window.location;
-const path = local.origin + getDir(local);
+const local = window.location.pathname;
+const path = local.substring(0, local.lastIndexOf('/'));
 
 console.log(path);
-
-/**
- * Get current directory.
- *
- * @param {Location} place
- * @param {number} n
- * @return {string} 
- */
-function getDir(place, n) {
-    return place.pathname.replace(new RegExp("(?:\\\/+[^\\\/]*){0," + ((n || 0) + 1) + "}$"), "/");
-}
