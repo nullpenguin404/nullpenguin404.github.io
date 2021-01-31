@@ -1,36 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 body {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     top: 0;
     margin: 0px;
-    background-color: whitesmoke;
+    background-color: white;
+    min-height: 100vh;
+    position: relative;
 }
 
 header {
     position: fixed;
     width: 100%;
-    background-color: gainsboro;
+    background-color: whitesmoke;
     border-bottom: 2px solid gray;
 }
 
-#h-wrapper {
+footer {
+    width: 100%;
+    background-color: gray;
+    border-top: 2px solid dimgray;
+    margin: auto 0 0 0;
+    position: absolute;
+    bottom: 0;
+}
+
+nav {
+    float: right;
+    margin: 0 0 0 auto;
+}
+
+nav li {
+    vertical-align: middle;
+    list-style: none;
+    padding: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav p {
+    margin: 0 1px;
+    font-size: 20px;
+}
+
+.wrapper {
     display: block;
     max-width: 80%;
     min-width: 600px;
     margin: 0 auto;
 }
 
-#h-title {
+.titler {
+    font-family: 'Yusei Magic', sans-serif;
     float: left;
     font-weight: lighter;
     margin: 0 0 auto 0;
     padding: 10px 0px;
-    font-size: 35px;
 }
 
-#h-nav {
-    float: right;
-    margin: 0 0 0 auto;
+#h-title {
+    font-size: 35px;
 }
 
 #h-nav ul {
@@ -39,9 +71,6 @@ header {
 }
 
 #h-nav li {
-    vertical-align: middle;
-    list-style: none;
-    padding: 0 5px;
     border-left: 1px solid gray;
 }
 
@@ -49,13 +78,19 @@ header {
     border-right: 1px solid gray;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
+#h-nav p {
+    float: right;
 }
 
-#h-nav p {
-    margin: 0 1px;
-    float: right;
-    font-size: 20px;
+#f-title {
+    font-size: 30px;
+}
+
+#f-nav ul {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#f-nav li {
+    padding: 1px 1px;
 }

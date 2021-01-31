@@ -5,7 +5,7 @@ const path = local.substring(0, local.lastIndexOf('/'));
 
 console.log(path);
 
-$(function() {
+$(function () {
     $('header').load('/parts/header.html');
     $('footer').load('/parts/footer.html');
 });
