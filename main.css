@@ -46,10 +46,20 @@ nav p {
     font-size: 20px;
 }
 
+header img {
+    vertical-align: middle;
+}
+
+main {
+    display: inline-block;
+    margin-top: 73px;
+    position: absolute;
+}
+
 .wrapper {
     display: block;
     max-width: 80%;
-    min-width: 600px;
+    min-width: 700px;
     margin: 0 auto;
 }
 
@@ -59,6 +69,11 @@ nav p {
     font-weight: lighter;
     margin: 0 0 auto 0;
     padding: 10px 0px;
+}
+
+.titler a {
+    text-decoration: none;
+    color: black;
 }
 
 #h-title {
