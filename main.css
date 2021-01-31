@@ -16,7 +16,8 @@ header {
 
 #h-wrapper {
     display: block;
-    max-width: 1000px;
+    max-width: 80%;
+    min-width: 600px;
     margin: 0 auto;
 }
 
@@ -39,10 +40,23 @@ header {
 }
 
 #h-nav li {
+    vertical-align: middle;
     list-style: none;
+    padding: 0 5px;
+    border-left: 1px solid gray;
+}
+
+#h-nav li:last-child {
+    border-right: 1px solid gray;
 }
 
 #h-nav a {
     text-decoration: none;
     color: black;
+}
+
+#h-nav p {
+    margin: 0 1px;
+    float: right;
+    font-size: 20px;
 }
