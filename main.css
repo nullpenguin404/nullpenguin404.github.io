@@ -9,9 +9,9 @@ body {
 }
 
 header {
-    position: fixed;
+    display: inline-block;
     width: 100%;
-    background-color: #282828;
+    background-color: #373737;
 }
 
 footer {
@@ -49,15 +49,13 @@ header img {
 
 main {
     display: inline-block;
-    margin-top: 71px;
     width: 100%;
-    position: absolute;
 }
 
 .wrapper {
     display: block;
     max-width: 80%;
-    min-width: 700px;
+    min-width: 751px;
     margin: 0 auto;
 }
 
@@ -74,9 +72,19 @@ main {
     color: whitesmoke;
 }
 
+.s-title {
+    margin-left: 50px;
+    font-size: 32px;
+}
 
 #h-title {
-    font-size: 35px;
+    font-size: 42px;
+}
+
+#h-nav {
+    height: 61px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #h-nav ul {
@@ -95,6 +103,7 @@ main {
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 36px;
 }
 
 #f-title {
