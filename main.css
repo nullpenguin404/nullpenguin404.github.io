@@ -72,9 +72,14 @@ main {
     color: whitesmoke;
 }
 
+.articles {
+    margin: 0 50px;
+}
+
 .s-title {
-    margin-left: 50px;
     font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #bbbbbb;
 }
 
 #h-title {
@@ -108,13 +113,29 @@ main {
 
 #f-title {
     font-size: 30px;
+    width: 50%;
+}
+
+#f-nav {
+    width: 50%;
 }
 
 #f-nav ul {
     display: inline-flex;
     flex-direction: column;
+    float: right;
 }
 
 #f-nav li {
     padding: 1px 1px;
+}
+
+#f-nav p {
+    font-size: 15px;
+}
+
+#copyright {
+    width: 100%;
+    margin: 0 auto;
+    color: dimgray;
 }
