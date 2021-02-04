@@ -95,6 +95,10 @@ aside a,h3 a {
     margin-left: 20px;
 }
 
+.smallest {
+    font-size: xx-small;
+}
+
 #h-title {
     font-size: 42px;
 }
