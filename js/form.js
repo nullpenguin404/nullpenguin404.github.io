@@ -28,7 +28,7 @@ $(function () {
         }
 
         if (returnName !== '') {
-            desc = desc + '\n返信先 : ' + returnName;
+            desc = desc + '\n\n返信先 : ' + returnName;
         }
 
         const msg = {
@@ -40,7 +40,7 @@ $(function () {
                     "timestamp": new Date(),
                 }
             ],
-            "content": "<@725683207655129098> "
+            "content": "<@725683207655129098>"
         }
 
         fetch(whurl + "?wait=true",
