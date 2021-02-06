@@ -1,6 +1,6 @@
 'use stict';
 
-const whurl = 'https://discordapp.com/api/webhooks/807217443713318952/OpZv04y6AX9RMSebv2w_KSC9U_ULGuFsCQDsrXSH8RnUM5vwVZXPfll8GldP7iEJSt8N';
+const whurl = config.WHKEY;
 
 $(function () {
     $('button[type="submit"]').prop('disabled', true);
