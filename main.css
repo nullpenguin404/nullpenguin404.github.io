@@ -6,6 +6,8 @@ body {
     background-color: white;
     min-height: 100vh;
     position: relative;
+    padding-bottom: 88px;
+    box-sizing: border-box;
 }
 
 header {
@@ -52,13 +54,77 @@ main {
     width: 100%;
 }
 
+aside {
+    margin-bottom: 50px;
+}
+
 aside li {
     list-style: none;
 }
 
-aside a,h3 a {
+aside a, h3 a {
     text-decoration: none;
     color: #000;
+}
+
+input, textarea {
+    display: block;
+}
+
+input[name="title"] {
+    width: 40%;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    text-align: center;
+    width: 80%;
+    height: 2em;
+}
+
+button[disabled] {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+label small {
+    color: crimson;
+}
+
+dialog {
+    position: relative;
+    width: 500px;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 0;
+    padding: 0;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+    animation: modal-open .4s ease;
+}
+
+dialog[open] {
+    animation: modal-slide .5s ease;
+}
+
+dialog h2 {
+    margin-left: 20px;
+    float: left;
+}
+
+dialog a {
+    color: #000;
+    text-decoration: none;
+    float: right;
 }
 
 .wrapper {
@@ -126,6 +192,10 @@ aside a,h3 a {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 36px;
+}
+
+#sort {
+    margin-left: 1.1em;
 }
 
 #f-title {
