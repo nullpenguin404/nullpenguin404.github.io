@@ -39,8 +39,8 @@ $(function () {
                     "description": desc,
                     "timestamp": new Date(),
                 }
-            ],
-            "content": "<@725683207655129098>"
+            ]//,
+            //"content": "<@725683207655129098>"
         }
 
         fetch(whurl + "?wait=true",
