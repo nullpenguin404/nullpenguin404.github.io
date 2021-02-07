@@ -1,4 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@keyframes modal-open {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes modal-slide {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     top: 0;
@@ -127,21 +145,23 @@ dialog {
     padding: 50px;
     box-sizing: border-box;
     border-radius: 3px;
-    border: 0;
+    border: 1px solid dimgray;
     padding: 0;
 }
 
 dialog::backdrop {
     background: rgba(0, 0, 0, 0.5);
     animation: modal-open .4s ease;
+    -webkit-animation: modal-open .4s ease;
 }
 
 dialog[open] {
     animation: modal-slide .5s ease;
+    -webkit-animation: modal-slide .5s ease;
 }
 
 dialog h2 {
-    margin-left: 20px;
+    margin-left: 40px;
     float: left;
 }
 
@@ -149,6 +169,7 @@ dialog a {
     color: #000;
     text-decoration: none;
     float: right;
+    margin: 10px;
 }
 
 .wrapper {
