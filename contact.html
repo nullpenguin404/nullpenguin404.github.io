@@ -2,6 +2,7 @@
 <html lang="ja">
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
         <link rel="stylesheet" href="/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="/js/parts.js"></script>
@@ -29,12 +30,17 @@
                     <article>
                         <h3 class="s-title">お問い合わせ</h3>
                         <p>ご意見・ご感想・バグ報告など、いろいろ。</p>
-                        <p id="form">
+                        <div id="form">
                             <label>
                                 名前<small>*必須</small> : <input type="text" name="user_name" required>
                             </label>
                             <label>
-                                返信先(TwitterIdなど) : <input type="text" name="return">
+                                返信先 : <input type="text" name="return">
+                            </label>
+                            <label>
+                                <div id="return_type">
+                                    返信先の種類 : <br><input type="radio" name="return_type" value="e-mail">E-mail <input type="radio" name="return_type" value="twitter">Twitter <input type="radio" name="return_type" value="discord">Discord <input type="radio" name="return_type" value="other"> その他
+                                </div>
                             </label>
                             <label>
                                 件名 : <input type="text" name="title">
@@ -45,7 +51,7 @@
                             <label>
                                 <button type="submit">送信…</button>
                             </label>
-                        </p>
+                        </div>
                         <dialog>
                             <h2>送信完了!</h2>
                             <a href="/contact.html">×</a>
