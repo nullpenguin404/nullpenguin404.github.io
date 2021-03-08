@@ -18,7 +18,6 @@ $(() => {
         const return_name = $('input[name="return"]').val();
         if (return_name !== '') {
             $('div#return_type').addClass('active');
-            $('button[type="submit"]').prop('disabled', true);
         } else {
             $('div#return_type').removeClass('active');
             $('button[type="submit"]').prop('disabled', false);

@@ -80,7 +80,7 @@ aside li {
     list-style: none;
 }
 
-aside a, h3 a {
+aside a, h3 a, #works a {
     text-decoration: none;
     color: #000;
 }
@@ -234,13 +234,31 @@ dialog a {
     width: 100%;
     text-align: center;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 0;
     font-size: 36px;
 }
 
 #sort {
     margin-left: 1.1em;
+}
+
+#works {
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+#works article {
+    padding: 0 20px;
+    border: #aaa solid 1px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#works p {
+    margin-bottom: 32px;
 }
 
 #f-title {
