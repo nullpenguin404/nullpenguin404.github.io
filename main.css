@@ -122,21 +122,11 @@ label small {
 div#return_type {
     opacity: 0;
     height: 0px;
-    transition: opacity 1s ease 0s, height 1s ease 300ms;
-    -webkit-transition: opacity 1s ease 0s, height 1s ease 300ms;
-    -moz-transition: opacity 1s ease 0s, height 1s ease 300ms;
-    -ms-transition: opacity 1s ease 0s, height 1s ease 300ms;
-    -o-transition: opacity 1s ease 0s, height 1s ease 300ms;
 }
 
 div#return_type.active {
     opacity: 1;
     height: 48px;
-    transition: opacity 1s ease 300ms, height 1s ease 0s;
-    -webkit-transition: opacity 1s ease 300ms, height 1s ease 0s;
-    -moz-transition: opacity 1s ease 300ms, height 1s ease 0s;
-    -ms-transition: opacity 1s ease 300ms, height 1s ease 0s;
-    -o-transition: opacity 1s ease 300ms, height 1s ease 0s;
 }
 
 dialog {
