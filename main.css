@@ -17,6 +17,86 @@
     }
 }
 
+@keyframes error {
+    0% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+    2% {
+        transform: translate(2px, 2px);
+        -webkit-transform: translate(2px, 2px);
+        -moz-transform: translate(2px, 2px);
+        -ms-transform: translate(2px, 2px);
+        -o-transform: translate(2px, 2px);
+    }
+    4% {
+        transform: translate(0px, 2px);
+        -webkit-transform: translate(0px, 2px);
+        -moz-transform: translate(0px, 2px);
+        -ms-transform: translate(0px, 2px);
+        -o-transform: translate(0px, 2px);
+    }
+    6% {
+        transform: translate(2px, 0px);
+        -webkit-transform: translate(2px, 0px);
+        -moz-transform: translate(2px, 0px);
+        -ms-transform: translate(2px, 0px);
+        -o-transform: translate(2px, 0px);
+    }
+    8% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+    10% {
+        transform: translate(2px, 2px);
+        -webkit-transform: translate(2px, 2px);
+        -moz-transform: translate(2px, 2px);
+        -ms-transform: translate(2px, 2px);
+        -o-transform: translate(2px, 2px);
+    }
+    12% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+    14% {
+        transform: translate(2px, 0px);
+        -webkit-transform: translate(2px, 0px);
+        -moz-transform: translate(2px, 0px);
+        -ms-transform: translate(2px, 0px);
+        -o-transform: translate(2px, 0px);
+    }
+    16% {
+        transform: translate(0px, 2px);
+        -webkit-transform: translate(0px, 2px);
+        -moz-transform: translate(0px, 2px);
+        -ms-transform: translate(0px, 2px);
+        -o-transform: translate(0px, 2px);
+    }
+    18% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+        -webkit-transform: translate(0px, 0px);
+        -moz-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        -o-transform: translate(0px, 0px);
+    }
+}
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     top: 0;
@@ -151,15 +231,20 @@ dialog[open] {
 }
 
 dialog h2 {
-    margin-left: 40px;
-    float: left;
+    display: initial;
+    width: 300px;
+    margin: 20px 0 auto 40px;
 }
 
 dialog a {
     color: #000;
     text-decoration: none;
-    float: right;
     margin: 10px;
+    float: right;
+}
+
+dialog p {
+    margin-left: 40px;
 }
 
 .wrapper {
@@ -198,6 +283,17 @@ dialog a {
 
 .smallest {
     font-size: xx-small;
+}
+
+.error {
+    animation: error 2.0s infinite;
+    border: red solid 2px;
+    border-radius: 4px;
+    -webkit-animation: error 2.0s ease;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 #h-title {
