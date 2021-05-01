@@ -156,7 +156,7 @@ aside {
     margin-bottom: 50px;
 }
 
-aside li {
+aside li, article li {
     list-style: none;
 }
 
@@ -245,6 +245,10 @@ dialog a {
 
 dialog p {
     margin-left: 40px;
+}
+
+h4 {
+    margin-bottom: 0;
 }
 
 .wrapper {
