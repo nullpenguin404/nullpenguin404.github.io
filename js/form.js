@@ -43,6 +43,7 @@ $(() => {
             if (user_name.val() != '' && desc.val() != '' && typeof $('input[name="return_type"]:checked').val() != 'undefined') {
                 send(user_name.val(), return_name.val(), $('input[name="return_type"]:checked').val(), title.val(), desc.val());
                 sucsessDialog.showModal();
+                let countdown = 20;
                 setInterval(() => {
                     $('span').text(String(countdown));
                     countdown--;
