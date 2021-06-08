@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     top: 0;
@@ -86,7 +87,7 @@ aside li, article li {
     color: whitesmoke;
 }
 
-.articles {
+article {
     margin: 0 50px;
 }
 
@@ -159,4 +160,23 @@ aside li, article li {
     width: 100%;
     margin: 0 auto;
     color: dimgray;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181a1b;
+        color: #e8e6e3;
+    }
+
+    header {
+        background-color: #292d2f;
+    }
+
+    footer {
+        background-color: #1e2122;
+    }
+
+    a {
+        color: #e8e6e3;
+    }
 }
