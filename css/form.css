@@ -188,3 +188,10 @@ dialog p {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
+
+@media (prefers-color-scheme: dark) {
+    input, textarea, button[type="submit"] {
+        background-color: #292d2f;
+        color: #e8e8e8;
+    }
+}
